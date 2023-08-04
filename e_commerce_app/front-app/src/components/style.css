@@ -1,0 +1,78 @@
+/* Styling for the container holding the signup form */
+.container {
+  max-width: 40%;
+  margin: 6% auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Styling for the form header */
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Styling for form labels */
+label {
+  display: block;
+  margin-bottom: 8px;
+  text-align: left;
+  margin-left: 23%;
+}
+
+/* Styling for form input fields */
+input {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Styling for the submit button */
+button[type="submit"] {
+  width: 54%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+form {
+  padding-bottom: 6%;
+}
+
+.addproduct {
+  margin-top: 70px;
+}
+
+.profile {
+  margin-top: 71px;
+    margin-bottom: 67px; 
+} 
+
+
+
+.product-list {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.product-list ul li {
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding: 5px;
+  width: 150px;
+}
+
+.product-list ul {
+  margin: 0px;
+}
